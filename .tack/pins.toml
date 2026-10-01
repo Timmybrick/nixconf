@@ -4,6 +4,10 @@ url = "github:nixos/nixpkgs/nixos-unstable"
 [inputs.impermanence]
 url = "github:nix-community/impermanence"
 
+[inputs.chaotic]
+url = "github:chaotic-cx/nyx/nyxpkgs-unstable"
+follows = { nixpkgs = "nixpkgs" }
+
 [inputs.disko]
 url = "github:nix-community/disko"
 follows = { nixpkgs = "nixpkgs" }

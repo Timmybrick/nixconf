@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "jnoortheen.nix-ide",
+    "brettm12345.nixfmt-vscode",
+    "esbenp.prettier-vscode",
+    "nefrob.vscode-just-syntax"
+  ]
+}
