@@ -7,7 +7,7 @@ default:
 @guide:
     echo "just git && just check_disk && just nix-disko 'deck' && just make-passwd 't' && just nix-install 'deck'"
 
-git repo_url='https://github.com/Timmybrick/transient-workstation.git':
+git repo_url='https://github.com/Timmybrick/nixconf.git':
     #!/usr/bin/env bash
     set -euo pipefail
     nix --extra-experimental-features 'nix-command flakes' \
