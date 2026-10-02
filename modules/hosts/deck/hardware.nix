@@ -1,10 +1,4 @@
 {
-  config,
-  lib,
-  modulesPath,
-  ...
-}:
-{
   hosts.deck =
     {
       config,

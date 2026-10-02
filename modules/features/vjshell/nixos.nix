@@ -1,5 +1,5 @@
 {
-  modules.nixos.desktop = {
+  modules.nixos.null.desktop = {
     pkgs,
     lib,
     ...

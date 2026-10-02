@@ -1,5 +1,5 @@
 {
-  modules.nixos.desktop = {pkgs, ...}: {
+  modules.nixos.null.desktop = {pkgs, ...}: {
     environment.systemPackages = [pkgs.vj.terminal];
   };
 }

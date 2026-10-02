@@ -1,17 +1,17 @@
 {
   modules.nixos.desktop = {
-    time.timeZone = "Europe/Kyiv";
-    i18n.defaultLocale = "en_US.UTF-8";
+    time.timeZone = "Asia/Taipei";
+    i18n.defaultLocale = "zh_TW.UTF-8";
     i18n.extraLocaleSettings = {
-      LC_ADDRESS = "uk_UA.UTF-8";
-      LC_IDENTIFICATION = "uk_UA.UTF-8";
-      LC_MEASUREMENT = "uk_UA.UTF-8";
-      LC_MONETARY = "uk_UA.UTF-8";
-      LC_NAME = "uk_UA.UTF-8";
-      LC_NUMERIC = "uk_UA.UTF-8";
-      LC_PAPER = "uk_UA.UTF-8";
-      LC_TELEPHONE = "uk_UA.UTF-8";
-      LC_TIME = "uk_UA.UTF-8";
+      LC_ADDRESS = "zh_TW.UTF-8";
+      LC_IDENTIFICATION = "zh_TW.UTF-8";
+      LC_MEASUREMENT = "zh_TW.UTF-8";
+      LC_MONETARY = "zh_TW.UTF-8";
+      LC_NAME = "zh_TW.UTF-8";
+      LC_NUMERIC = "zh_TW.UTF-8";
+      LC_PAPER = "zh_TW.UTF-8";
+      LC_TELEPHONE = "zh_TW.UTF-8";
+      LC_TIME = "zh_TW.UTF-8";
     };
   };
 }

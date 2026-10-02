@@ -1,5 +1,5 @@
 {
-  modules.nixos.desktop = {pkgs, ...}: {
+  modules.nixos.null.desktop = {pkgs, ...}: {
     programs.mango.enable = true;
     programs.mango.package = pkgs.vj.mangowcDynamic;
 

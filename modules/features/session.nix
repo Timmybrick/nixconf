@@ -1,5 +1,5 @@
 {
-  modules.nixos.desktop = {
+  modules.nixos.null.desktop = {
     services.upower.enable = true;
 
     security.polkit.enable = true;

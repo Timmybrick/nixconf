@@ -1,11 +1,11 @@
 {
-  modules.nixos.base = {
+  modules.nixos.null.base = {
     persistence.cache.directories = [
       ".config/Bitwarden CLI"
     ];
   };
 
-  modules.nixos.desktop = {pkgs, ...}: {
+  modules.nixos.null.desktop = {pkgs, ...}: {
     environment.systemPackages = [
       pkgs.vj.screenshot
       pkgs.vj.screenshotRegion

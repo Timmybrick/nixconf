@@ -13,7 +13,7 @@
     };
   };
 
-  modules.nixos.desktop = {pkgs, ...}: {
+  modules.nixos.null.desktop = {pkgs, ...}: {
     persistence.cache.directories = [
       ".local/state/wireplumber"
     ];

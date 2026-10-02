@@ -82,7 +82,7 @@ in {
     nix = mkNix pkgs (lib.getExe pkgs.nix);
   };
 
-  modules.nixos.base = {pkgs, ...}: {
+  modules.nixos.null.base = {pkgs, ...}: {
     environment.systemPackages = [(lib.hiPrio pkgs.vj.nix)];
   };
 

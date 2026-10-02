@@ -44,7 +44,7 @@ in {
     '';
   };
 
-  modules.nixos.base = {pkgs, ...}: {
+  modules.nixos.null.base = {pkgs, ...}: {
     environment.etc."vjenv/gated".source = pkgs.vj.vjenv-gated;
 
     persistence.data.directories = [

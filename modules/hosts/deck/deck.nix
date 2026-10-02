@@ -14,7 +14,6 @@
       imports = [
         self.modules.nixos.base
         self.modules.nixos.desktop
-        self.modules.nixos.personal
         self.modules.nixos.impermanence
 
         inputs.disko.nixosModules.disko
@@ -48,6 +47,12 @@
       hardware.enableRedistributableFirmware = true;
 
       environment.systemPackages = with pkgs; [
+        fcitx5
+        fcitx5-configtool
+        fcitx5-gtk
+        fcitx5-qt
+        fcitx5-chewing
+        nixfmt
         steamdeck-firmware
         jupiter-dock-updater-bin
       ];
