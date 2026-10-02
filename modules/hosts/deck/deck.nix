@@ -50,7 +50,6 @@
         fcitx5
         qt6Packages.fcitx5-configtool
         fcitx5-gtk
-        fcitx5-qt
         fcitx5-chewing
         nixfmt
         steamdeck-firmware
